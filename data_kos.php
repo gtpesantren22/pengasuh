@@ -57,7 +57,7 @@ $jml = mysqli_query($conn3, "SELECT COUNT(*) AS jml, ket, CASE
                                                         $no = 1;
                                                         $ket = $dts['ket'];
 
-                                                        $sql = mysqli_query($conn3, "SELECT * FROM tb_santri WHERE aktif = 'Y' AND ket = $ket AND t_kos = $tempat_kos ");
+                                                        $sql = mysqli_query($conn3, "SELECT * FROM tb_santri WHERE aktif = 'Y' AND ket = $ket AND t_kos = $tempat_kos ORDER BY t_formal ");
                                                         foreach ($sql as $ar) :
                                                             if ($ar['t_formal'] == 'MTs') {
                                                                 $bg = 'secondary';
