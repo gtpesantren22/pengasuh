@@ -28,8 +28,12 @@ $dts2 = mysqli_fetch_assoc(mysqli_query($conn3, "SELECT * FROM lemari_data WHERE
           <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
 
             <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
-            <h2><?= $dts['nama']; ?></h2>
-            <h3><?= $dts['nis']; ?></h3>
+            <h2>
+              <center><?= $dts['nama']; ?></center>
+            </h2>
+            <h3>
+              <center><?= $dts['nis']; ?></center>
+            </h3>
             <div class="social-links mt-2">
 
             </div>
