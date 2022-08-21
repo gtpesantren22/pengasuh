@@ -1,3 +1,4 @@
+<?php $tempat_kos = 2; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -163,7 +164,7 @@
                 </a>
                 <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                     <li>
-                        <a href="tables-general.html">
+                        <a href="data_kos.php">
                             <i class="bi bi-circle"></i><span>Data Santri</span>
                         </a>
                     </li>
