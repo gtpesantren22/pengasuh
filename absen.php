@@ -67,7 +67,7 @@ $bn = array("", "Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", 
                                                     } else if ($lm['lembaga'] === 'SMK') {
                                                         $warna = 'warning';
                                                     }
-                                                    echo "<span class='badge badge-" . $warna . "'>" . $lm['lembaga'] . "</span>";
+                                                    echo "<span class='badge bg-" . $warna . "'>" . $lm['lembaga'] . "</span>";
                                                 }
                                                 ?>
                                             </td>
